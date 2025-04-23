@@ -23,7 +23,7 @@ private:
 	FTCPClient TcpClient;
 	FTimerHandle BrainTickHandle;
 
-	FVector TargetLocation = FVector(500.0f, 500.0f, 0.0f); // Статична ціль
+	FVector TargetLocation = FVector(500.0f, 500.0f, 0.0f); 
 
 	FVector LastMoveDirection = FVector::ZeroVector;
 
