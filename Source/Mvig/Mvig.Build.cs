@@ -16,7 +16,9 @@ public class Mvig : ModuleRules
 			"Sockets", 
 			"Networking",  
 			"Json",
-			"JsonUtilities"  
+			"JsonUtilities", 
+			"AIModule",  
+			"NavigationSystem"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
